@@ -226,3 +226,4 @@ module Sidekiq
 end
 
 require 'sidekiq/rails' if defined?(::Rails::Engine)
+require "sidekiq/systemd"
